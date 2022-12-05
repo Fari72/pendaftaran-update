@@ -46,7 +46,7 @@
 
                 <div class="navbar-header">
                    
-                    <a href="#" class="site-title"><span>PPDB</span></a>
+                    <a href="" class="site-title"><span>PPDB</span></a>
 
                 </div><!-- /.navbar-header -->
 
