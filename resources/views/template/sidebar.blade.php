@@ -9,6 +9,7 @@
             <a href="{{ route('dashboard') }}">PPDB</a>
         </div>
 
+        @if(auth()->user()->role == 'admin')
         <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>
 
@@ -34,6 +35,17 @@
                     <span>Jurusan</span>
                 </a>
             </li>
+            @endif
+            @if(auth()->user()->role == 'siswa')
+            <li class="menu-header">Dashboard</li>
+
+            <li class="{{ request()->is('dashboard') ? 'active' : '' }}">
+                <a class="nav-link" href="{{route('dashboard')}}">
+                <i class="fa-sharp fa-solid fa-eye"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            @endif
             
         </ul>
     </aside>

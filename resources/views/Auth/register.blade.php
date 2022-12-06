@@ -40,12 +40,18 @@
                  
 
                   <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" type="name" class="form-control" name="name">
+                    <div class="invalid-feedback">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
                     <label for="email">Email</label>
                     <input id="email" type="email" class="form-control" name="email">
                     <div class="invalid-feedback">
                     </div>
                   </div>
-
                   
                     <div class="form-group">
                       <label for="password" class="d-block">Password</label>

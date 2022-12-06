@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 use Auth;
-
+use Str;
 class AuthController extends Controller
 {
     public function login()
@@ -24,6 +25,7 @@ class AuthController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => bcrypt($request->password),
+            'role' => 'siswa',
             'remember_token' => Str::random(20),
         ]);
 
