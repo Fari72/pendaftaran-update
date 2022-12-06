@@ -14,7 +14,7 @@
 
             <li class="{{ request()->is('dashboard') ? 'active' : '' }}">
                 <a class="nav-link" href="{{route('dashboard')}}">
-                    <i class="fas fa-fire"></i>
+                <i class="fa-sharp fa-solid fa-eye"></i>
                     <span>Dashboard</span>
                 </a>
             </li>
