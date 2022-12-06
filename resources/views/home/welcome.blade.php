@@ -52,8 +52,8 @@
 
                 <div class="collapse navbar-collapse" id="agency-navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="{{ url('/welcome') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                        <li><a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a></li>
+                        <li class="active"><a href="{{ url('/') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
+                        <li><a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Login</a></li>
                         <li><a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a></li>
                     </ul>
                 </div>
