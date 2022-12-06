@@ -69,7 +69,7 @@
                
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item">
-                    <a href="{{ url('/') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
+                    <a href="{{ url('/') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Selamat datang silahkan login atau register</a>
                 </li>
                 </div>
                 
